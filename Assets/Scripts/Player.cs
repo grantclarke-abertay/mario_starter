@@ -18,6 +18,8 @@ public class Player : MonoBehaviour {
 
 	void Start()
 	{
+		// record the start position of the player
+		start_position = transform.position;
 	}
 
 	public void Reset()
